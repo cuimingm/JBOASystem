@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="DEPARTMENTS" schema="SCOTT"
+		class="net.jboasystem.entity.Department">
+		<primary-key>
+			<generator class="sequence"></generator>
+		</primary-key>
+	</table>
+	<table name="EMPLOYEES" schema="SCOTT"
+		class="net.jboasystem.entity.Employee">
+		<primary-key>
+			<generator class="sequence"></generator>
+		</primary-key>
+	</table>
+	<table name="JOBS" schema="SCOTT"
+		class="net.jboasystem.entity.Job">
+		<primary-key>
+			<generator class="sequence"></generator>
+		</primary-key>
+	</table>
+	<table name="LEAVES" schema="SCOTT"
+		class="net.jboasystem.entity.Leave">
+		<primary-key>
+			<generator class="sequence"></generator>
+		</primary-key>
+	</table>
+	<table name="REIMBURSEMENTS" schema="SCOTT"
+		class="net.jboasystem.entity.Reimbursement">
+		<primary-key>
+			<generator class="sequence"></generator>
+		</primary-key>
+	</table>
+	<table name="REIM_DETAILS" schema="SCOTT"
+		class="net.jboasystem.entity.ReimbursementDetail">
+		<primary-key>
+			<generator class="sequence"></generator>
+		</primary-key>
+	</table>
+<table name="CHECKED_RESULTS" schema="SCOTT"
+	class="net.jboasystem.entity.CheckedResult">
+	<primary-key>
+		<generator class="sequence"></generator>
+	</primary-key>
+</table>
+</hibernate-reverse-engineering>

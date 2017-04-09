@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="oa" namespace="/" extends="json-default">
+		<action name="*Emp" class="net.jboasystem.web.action.EmployeeAction" method="{1}">
+			<result>index.jsp</result>
+			<result name="input">login.jsp</result>
+		</action>
+		<action name="*Leave" class="net.jboasystem.web.action.LeaveAction" method="{1}">
+			<!-- 使用流对象回传数据，需要自己拼接json字符串 -->
+			<result type="stream">
+				<param name="inputName">inputStream</param>
+			</result>
+			<!-- 使用json结果类型，自动生成json字符串 -->
+			<result name="ajax" type="json">
+				<!-- 指定Action的属性，将该属性自动转换为json格式 -->
+				<param name="root">data</param>
+			</result>
+		</action>
+	</package>
+</struts>    

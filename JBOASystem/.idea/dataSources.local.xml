@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="hibernate.cfg.xml/Hibernate" uuid="6359c6c6-6a64-47f6-adea-02cb0e1bf6b2">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>scott</user-name>
+      <user-password>dfc0dfcedfc8dfc9df90dfc5dfd8dfcbdfc9dfc6dfcfdf90dfdedfc2dfc3dfc4df90dfeadfc6dfc5dfc9dfcbdfc6dfc2dfc5dfd9dfdedf90df9bdf9fdf98df9bdf90dfc5dfd8dfc9dfc6</user-password>
+    </data-source>
+    <data-source name="WebRoot:WEB-INF:classes:hibernate.cfg.xml/Hibernate" uuid="088eb3c2-521b-49e3-b6d4-fb7f7768374c">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+      <user-name>scott</user-name>
+      <user-password>dfc0dfcedfc8dfc9df90dfc5dfd8dfcbdfc9dfc6dfcfdf90dfdedfc2dfc3dfc4df90dfeadfc6dfc5dfc9dfcbdfc6dfc2dfc5dfd9dfdedf90df9bdf9fdf98df9bdf90dfc5dfd8dfc9dfc6</user-password>
+    </data-source>
+  </component>
+</project>
